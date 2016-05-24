@@ -1,0 +1,12 @@
+{
+  "name": "ChatInUPC",
+  "version": "0.0.1",
+  "description": "A chat game in 3D School--UPC(China University of Petroleum)",
+  "dependencies": {
+    "connect-redis": "^3.0.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "redis": "^2.6.0-2",
+    "socket.io": "^1.4.6"
+  }
+}
