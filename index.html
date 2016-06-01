@@ -30,5 +30,13 @@
         socket.on('chat message', function(msg){
             $('#messages').append($('<li>').text(msg));
         });
+        document.onkeydown=function(event){
+            var e = event || window.event || arguments.callee.caller.arguments[0];         
+             if(e && e.keyCode==13){ // enter 键
+                 $('#btn_send').trigger("click");
+                 $('#m').focus();
+            }
+        }; 
+        $('#m').focus();
     </script>
 </html>
